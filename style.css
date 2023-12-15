@@ -1,0 +1,97 @@
+body{
+    background-image: url(fondo.jpg);
+}
+
+#encabezado{
+    background-image: linear-gradient(to left bottom, beige, white);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: chocolate;
+    background-color: black;
+}
+
+#logo{
+    height: 5em;
+    width: 20em;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.5em;
+}
+
+#formLogin{
+    background-image: linear-gradient(to left bottom, beige, white);
+    text-align: center;
+    margin: 5em;
+    padding: 2em;
+    border-radius: 20%;
+}
+
+.divLink{
+    background-color: beige;
+}
+
+.link{
+    margin-left: 44%;
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+.contenedor{
+    display: grid;
+    background-color: antiquewhite;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.indice{
+    margin-left: 8.5em;
+}
+
+img{
+    height: 10em;
+    width: 10em;
+    border-style: solid;
+}
+
+#comentarios{
+    background-color: beige;
+    padding: 3em;
+    text-align: center;
+}
+
+#botonComent{
+    margin: 1em;
+}
+
+p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.datos{
+    background-color: antiquewhite;
+}
+
+#formCompra{
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 5%;
+    margin: 3em;
+}
+
+#contacto{
+    text-align: left !important;
+    margin: 1em;
+    padding: 2em;
+}
+
+#botonFinal{
+    text-align: center;
+}
